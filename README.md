@@ -1,13 +1,11 @@
-# DonateHub
-DonateHub — Full‑stack donation &amp; marketplace app (Node.js/Express + MongoDB + React) for listing, donating, and selling items.
-
 # DonateHub 🤝
 
 A full-stack web application that connects donors and buyers in a simple, intuitive marketplace. Share and discover donations or sell items seamlessly.
 
-[![Node.js](https://img.shields.io/badge/Node.js-v16+-green)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-v18+-blue)](https://react.dev/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-v7+-green)](https://www.mongodb.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-v16+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express.js-v4.18+-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![React](https://img.shields.io/badge/React-v18+-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-v7+-13AA52?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## 📖 Table of Contents
@@ -67,7 +65,14 @@ A full-stack web application that connects donors and buyers in a simple, intuit
 
 ## 🛠 Tech Stack
 
-### Backend
+### Languages & Markup
+- **JavaScript** (~97%) - Primary language for both backend and frontend
+- **CSS** (~2%) - Styling (global.css, component styles)
+- **HTML** (~1%) - React templates and static assets
+- **JSON** - Configuration and package management
+- **PowerShell** - Database seeding and utility scripts
+
+### Backend (Node.js/JavaScript)
 - **Runtime:** Node.js
 - **Framework:** Express.js
 - **Database:** MongoDB (Mongoose ODM)
@@ -77,12 +82,12 @@ A full-stack web application that connects donors and buyers in a simple, intuit
 - **Validation:** express-validator
 - **Security:** Helmet, bcryptjs, express-rate-limit
 
-### Frontend
+### Frontend (React/JavaScript)
 - **Framework:** React 18
 - **Routing:** React Router
 - **State Management:** Context API
 - **HTTP Client:** Axios
-- **Styling:** CSS
+- **Styling:** CSS (Global + Component-level)
 - **UI Components:** Custom React components
 
 ### DevOps & Tools
@@ -90,6 +95,7 @@ A full-stack web application that connects donors and buyers in a simple, intuit
 - **Database:** MongoDB Atlas / Local MongoDB
 - **Storage:** Cloudinary CDN
 - **Email Service:** Gmail/SMTP compatible
+- **Package Manager:** npm / yarn
 
 ## 📁 Project Structure
 
@@ -355,6 +361,3 @@ For questions or issues, please:
 **Happy Contributing! 🎉**
 
 Built with ❤️ for the community.
-
-
-
